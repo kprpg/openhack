@@ -106,9 +106,9 @@ spec:
           initialDelaySeconds: 5
           timeoutSeconds: 5
         args:
-        - --git-url=
-        - --git-branch=
-        - --git-path=
+        - --git-url=https://github.com/asb-spark/openhack
+        - --git-branch=thomasg2
+        - --git-path=gitops
         - --git-readonly
         - --sync-state=secret
         - --listen-metrics=:3031
